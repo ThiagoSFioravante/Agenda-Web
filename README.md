@@ -43,13 +43,19 @@ localhost/agenda
 
 A pagina inicial do projeto será aberta, nela estarão 3 contatos pré cadastrados como exemplo.
 
+![screenshot](screenshots/PaginaInicial.png)
+
 Cada Pagina mostra apenas 3 contatos. Ao adicionar mais de 3 contatos, mais paginas são criadas.
 
 Você pode navegar por estas paginas pelo botão demonstrado na imagem abaixo:
 
 ![screenshot](screenshots/BotaoPagina.png)
 
-![screenshot](screenshots/PaginaInicial.png)
+O número demonstrado em preto indica sua Pagina Atual e o vermelho o resto das Paginas que podem ser acessadas.
+```
+<< para a primeira pagina 
+>> para a ultima pagina
+```
 
 ### EDITAR O CONTATO
 
@@ -78,3 +84,14 @@ Na tela inicial clique no botão 'Adicionar Novo Contato'. Você será redirecio
 Complete todos os campos do formulário e clique no botão cadastrar para adicionar um novo contato. Ao clicar no botão você é redirecionado para a Pagina Inicial. Caso não tenha digitado todos os campos não será possivel cadastrar o contato. 
 
 Caso não queira cadastrar o contato, o botão Voltar para a Agenda volta a Pagina Inicial.
+
+## 🛠️ Ferramentas Utilizadas
+
+* Visual Studio Code
+* MySQL
+* phpMyAdmin
+* WAMPSERVER
+
+## 💻 Desenvolvido por
+
+Thiago da Silva Fioravante - 2021 - Jaú, SP
