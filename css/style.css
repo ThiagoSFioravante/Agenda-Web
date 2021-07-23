@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ADD8E6;
+    justify-content: center;
+}
+
+/* MENU */
+
+.menu{
+    background-color: rgba(24,22,97);
+    border-top-width: 2px;
+    border-top-color: black;
+    border-top-style: solid;
+    height: 110px;
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+
+.content{
+    height: 50px;
+    background-color: rgba(24,22,97);
+    font-family: 'sans-serif';
+    font-size: 22px;
+    text-decoration: none;
+    margin-top: 45px;
+    margin-left: 65%;
+}
+
+.content ul{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0 5px 0;  
+}
+
+.content ul li{
+    background-color: rgba(24,22,97);
+    text-decoration: none;
+    float: left;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.content ul li:hover{
+    visibility: visible;
+    background-color: rgba(65,105,225);
+    text-decoration: none;
+}
+
+.content a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.content2{
+    height: 50px;
+    background-color: rgba(24,22,97);
+    font-family: 'sans-serif';
+    font-size: 22px;
+    text-decoration: none;
+    margin-top: 45px;
+    margin-left: 80%;
+}
+
+.content2 ul{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0 5px 0;  
+}
+
+.content2 ul li{
+    background-color: rgba(24,22,97);
+    text-decoration: none;
+    float: left;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.content2 ul li:hover{
+    visibility: visible;
+    background-color: rgba(65,105,225);
+    text-decoration: none;
+}
+
+.content2 a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* FORM */
+
+fieldset{
+    border: none;
+}
+
+fieldset.ufcidade .campo{
+    float: left;
+}
+
+#estado{
+    width: 100px;
+}
+
+#cidade{
+    width: 230px;
+}
+
+.h1cad{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-left: 6%;
+    margin-top: 10px;
+}
+
+.campo input, .campo select{
+    border: 1px solid;
+    border-radius: 3px;
+    display: block;
+    height: 25px;
+    margin-top: 3px;
+}
+
+#nome, #telefone, #endereco{
+    width: 360px;
+}
+
+.campo{
+    margin-bottom: 13px;
+    margin-left: 30px;
+}
+
+.campo input:focus, .campo select:focus{
+    background-color: #ADD8E6;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #6495ED;
+    width: 425px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.btncadastro{
+    margin-top: 10px;  
+    margin-left: 35%; 
+    margin-bottom: 15px;
+    background-color: #4169E1;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px #999;
+}
+
+.btncadastro:hover {
+    background-color: #4682B4;
+}
+
+.btncadastro:active {
+  background-color: #4682B4;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
+.btnedit{
+    margin-top: 10px;  
+    margin-left: 38%; 
+    margin-bottom: 15px;
+    background-color: #4169E1;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px #999;
+}
+
+.btnedit:hover {
+    background-color: #4682B4;
+}
+
+.btnedit:active {
+  background-color: #4682B4;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
+.imgbtn{
+    margin-top: 8px;
+    margin-left: 5px;
+    height: 50px;
+    width: 50px;
+    float: none;
+}
+
+.pg{
+    margin-left: 8px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: red;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.divpg{
+    margin-top: 25px;
+    margin-left: 860px;
+    padding: 8px 16px;
+    float: left;
+}
+
+b{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.registro{
+    height: 200px;
+    width: 380px;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 35px;
+    border: solid black;;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #6495ED;
+}
+
+.lista{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
